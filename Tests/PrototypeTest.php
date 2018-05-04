@@ -23,10 +23,10 @@ class PrototypeTest extends TestCase
             $this->assertInstanceOf( FooBookPrototype::class, $book );
         }
 
-        for ( $i = 0; $i < 5; $i++ ) {
+        for ( $i = 0; $i < 5; $i++ ) { 
             $book = clone $barPrototype;
             $book->setTitle( 'Bar Book No ' . $i );
-            $this->assertInstanceOf( BarBookPrototype::class, $book );
+            $this->assertInstanceOf( BarBookPrototype::class, $book ); 
         }
     }
 }
