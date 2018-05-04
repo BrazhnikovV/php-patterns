@@ -1,0 +1,13 @@
+{
+    "name": "vasek/php_patterns",
+    "authors": [
+        {
+            "name": "Vasya Brazhnikov",
+            "email": "brazhnikov_ve@mail.ru"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
