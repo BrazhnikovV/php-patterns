@@ -5,9 +5,9 @@ namespace DesignPatterns\Structural\Composite;
 require_once('DesignPatterns/Structural/Composite/RenderableInterface.php');
 
 /**
-* The composite node MUST extend the component contract. This is mandatory for building
-* a tree of components.
-*/
+ * The composite node MUST extend the component contract. This is mandatory for building
+ * a tree of components.
+ */
 class Form implements RenderableInterface
 {
     /**
